@@ -8,30 +8,24 @@
 
  /* Reset */
 
- body, p, h1, h2, h3, h4 {
-    margin: 0px; 
-    padding: 0px;
- }
-
-
  body {
    background-image: url(../img/bkg-hw3.jpg);
    background-repeat: repeat;
  }
 
  #board {
-   
    border: solid #000 0.5px;
    margin: 50px;
    padding: 30px;
-   background-color: #f7f7f7
+   background-color: #f7f7f7;
+   border-radius: 15px;
  }
 
 h1 {
    font-size: 32px;
    color: #000;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   padding: 15px;
+   padding: 5px;
    text-align: center;
 }
 
@@ -39,7 +33,7 @@ h3 {
    font-size: 20px;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    text-align: center;
-   text-decoration: underline dashed 2px;
+   text-decoration: none;
 }
 
 #under-title {
@@ -51,14 +45,15 @@ h3 {
    text-align: center;
 }
 
-.list-box {
-   border: 2px dashed #000;
-   margin: 50px;
-   padding: 25px;
-}
-
 
 /* all lists are below ... 1-4 */
+.list-box {
+   border: 2px dashed #000;
+   margin: 30px;
+   padding: 15px;
+   border-radius: 10px;
+}
+
 
 #box-1 {
    background-color: rgb(182, 183, 255);
