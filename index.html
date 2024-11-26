@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css"></link>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
     <title>To Do! HW#3 CSS Cascade, Selection & Pseudo Selectors</title>
 </head>
 
@@ -13,9 +14,9 @@
 <body>
 <!-- HEADER -->
 
-    <header id="top">
+    <header>
         <h1>Steps to Success!</h1>
-        <sub>I have three followling lists that display my progress as of now: All Tasks, Working On, and Done.</sub>
+        <sub id="under-title">I have three followling lists that display my progress as of now: All Tasks, Working On, and Done.</sub>
     </header>
 
 <!-- END - HEADER -->
@@ -27,7 +28,7 @@
 
     <h2 class="hidden">All Lists Below</h2>
     <section>
-        <h3>All Tasks</h3>
+        <h3 class="list-box" id="box-1">All Tasks</h3>
             <ul>
                 <li>"HW #3 – CSS Cascade, Selection & Pseudo Selectors" class: 1054</li>
                 <li>FIP - Wireframes class: 1051 & 1053</li>
@@ -46,10 +47,11 @@
 
 <!-- SEC 2 -->
 
-<section>
+<section class="list-box" id="box-2">
     <h3>Not Started</h3>
         <ul>
             <li>Debugging & Validation class: 1052</li>
+            <li>FIP - Reflection class: 1050</li>
         </ul>
 </section>
 
@@ -61,13 +63,12 @@
 
 <!-- SEC 3 -->
 
-    <section>
+    <section class="list-box" id="box-3">
         <h3>Working On</h3>
              <ul>
                 <li>FIP - Wireframes class: 1051 & 1053</li>
                 <li>FIP - Programming class: 1052 & 1054</li>
                 <li>FIP - GitHub class: 1054</li>
-                <li>FIP - Reflection class: 1050</li>
              </ul>
     </section>
 
@@ -79,7 +80,7 @@
 
 <!-- SEC 4 -->
 
-    <section>
+    <section class="list-box" id="box-4">
         <h3>Done</h3>
             <ul>
                 <li>"HW #3 – CSS Cascade, Selection & Pseudo Selectors" class: 1054</li>
