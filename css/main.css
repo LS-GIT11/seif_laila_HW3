@@ -1,26 +1,19 @@
 
-/* Global */
+/* global */
 
  .hidden {
     display: none;
  }
 
 
- /* Reset */
+ /* reset */
 
  body {
    background-image: url(../img/bkg-hw3.jpg);
    background-repeat: repeat;
  }
 
- #board {
-   border: solid #202020 0.5px;
-   margin: 50px;
-   padding: 30px;
-   background-color: #ededed;
-   border-radius: 15px;
- }
-
+ /* headings */
 h1 {
    font-size: 32px;
    color: #202020;
@@ -36,6 +29,16 @@ h3 {
    text-decoration: none;
 }
 
+/* bkg for all lists, etc.. sectioned off */
+#board {
+   border: solid #202020 0.5px;
+   margin: 50px;
+   padding: 30px;
+   background-color: #ededed;
+   border-radius: 15px;
+ }
+
+ /* line between title and text on top of page & text */
 #line {
    color: #202020;
 }
@@ -49,12 +52,14 @@ h3 {
    text-align: center;
 }
 
+
+/* all list css ... 1-4 */
+
 li {
    text-decoration: none;
    list-style: none;
 }
 
-/* all lists are below ... 1-4 */
 .list-box {
    border: 2px dashed #000;
    margin: 30px;
@@ -109,9 +114,7 @@ li {
    line-height: 25px;
 }
 
-footer {
-   color: #202020;
-}
+/* checkboxes */
 
 input[type="checkbox"] {
    margin-right: 10px;
@@ -127,4 +130,10 @@ input[type="checkbox"]:checked {
 
 #box-3 input[type="checkbox"]:checked::after {
    content: "🎉";
+}
+
+
+/* bottom of page */
+footer {
+   color: #202020;
 }
