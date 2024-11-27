@@ -14,16 +14,16 @@
  }
 
  #board {
-   border: solid #000 0.5px;
+   border: solid #202020 0.5px;
    margin: 50px;
    padding: 30px;
-   background-color: #f7f7f7;
+   background-color: #ededed;
    border-radius: 15px;
  }
 
 h1 {
    font-size: 32px;
-   color: #000;
+   color: #202020;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    padding: 5px;
    text-align: center;
@@ -36,15 +36,23 @@ h3 {
    text-decoration: none;
 }
 
+#line {
+   color: #202020;
+}
+
 #under-title {
    font-size: 18px;
-   color: #000;
+   color: #202020;
    font-family:'Times New Roman', Times, serif;
    padding: 10px;
    margin-bottom: 30px;
    text-align: center;
 }
 
+li {
+   text-decoration: none;
+   list-style: none;
+}
 
 /* all lists are below ... 1-4 */
 .list-box {
@@ -64,6 +72,7 @@ h3 {
 #box-1 li{
    color: #2b1f7d;
    line-height: 25px;
+   list-style:circle;
 }
 
 #box-3 {
@@ -86,6 +95,7 @@ h3 {
 #box-4 li{
    color: #217d1f;
    line-height: 25px;
+   list-style:circle;
 }
 
 #box-2 {
@@ -97,4 +107,24 @@ h3 {
 #box-2 li{
    color: #7d1f1f;
    line-height: 25px;
+}
+
+footer {
+   color: #202020;
+}
+
+input[type="checkbox"] {
+   margin-right: 10px;
+}
+
+input[type="checkbox"]:checked {
+   appearance: none;
+}
+
+#box-2 input[type="checkbox"]:checked::after {
+   content: "✅"
+}
+
+#box-3 input[type="checkbox"]:checked::after {
+   content: "🎉";
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
-    <title>To Do! HW#3 CSS Cascade, Selection & Pseudo Selectors</title>
+    <title>HW#3 CSS Cascade, Selection & Pseudo Selectors</title>
 </head>
 
 
@@ -19,7 +19,10 @@
 
     <header class="col-span-full">
         <h1>Steps to Success</h1>
-        <p id="under-title col-start-2 col-start-10">I have three followling lists that display my progress as of now: All Tasks, Working On, and Done.</p>
+        <hr id="line">
+        <p id="under-title col-start-2 col-start-10">I have three followling lists that display my progress as of now: All Tasks, Working On, and Done. If checked off, move assignment down to list below</p>
+        <p>Ex. FIP - Reflection in the "Not Started" list becomes checked off, it means the task moves on to the next list, "Working On".</p>
+        <p>Goal is to move tasks all down to "Done"!</p>
     </header>
 
 <!-- END - HEADER -->
@@ -32,14 +35,23 @@
     <h2 class="hidden">All Lists Below</h2>
     <section class="list-box col-start-2 col-start-10" id="box-1">
         <h3 >All Tasks</h3>
+
             <ul>
+
                 <li>HW #3 – CSS Cascade, Selection & Pseudo Selectors class: 1054</li>
+
                 <li>FIP - Wireframes class: 1051 & 1053</li>
+
                 <li>FIP - Programming class: 1052 & 1054</li>
+
                 <li>FIP - GitHub class: 1054</li>
+
                 <li>FIP - Reflection class: 1050</li>
+
                 <li>Debugging & Validation class: 1052</li>
+
             </ul>
+
     </section>
 
 <!-- END - SEC 1 -->
@@ -52,10 +64,15 @@
 
 <section class="list-box col-start-2 col-start-10" id="box-2">
     <h3>Not Started</h3>
+
         <ul>
-            <li><input type="checkbox" class="check">Debugging & Validation class: 1052</li>
-            <li><input type="checkbox" class="check">FIP - Reflection class: 1050</li>
+
+            <li><input type="checkbox" class="task-checkbox">Debugging & Validation class: 1052</li>
+
+            <li><input type="checkbox" class="task-checkbox">FIP - Reflection class: 1050</li>
+
         </ul>
+
 </section>
 
 <!-- END - SEC 2 -->
@@ -68,11 +85,18 @@
 
     <section class="list-box col-start-2 col-start-10" id="box-3">
         <h3>Working On</h3>
-             <ul>
-                <li><input type="checkbox" class="check">FIP - Wireframes class: 1051 & 1053</li>
-                <li><input type="checkbox" class="check">FIP - Programming class: 1052 & 1054</li>
-                <li><input type="checkbox" class="check">FIP - GitHub class: 1054</li>
+
+             
+            <ul>
+
+                <li><input type="checkbox" class="task-checkbox">FIP - Wireframes class: 1051 & 1053</li>
+
+                <li><input type="checkbox" class="task-checkbox">FIP - Programming class: 1052 & 1054</li>
+
+                <li><input type="checkbox" class="task-checkbox">FIP - GitHub class: 1054</li>
+
              </ul>
+
     </section>
 
 <!-- END - SEC 3 -->
@@ -85,9 +109,13 @@
 
     <section class="list-box col-start-2 col-start-10" id="box-4">
         <h3>Done</h3>
+
             <ul>
-                <li><input type="checkbox" class="check">HW #3 – CSS Cascade, Selection & Pseudo Selectors class: 1054</li>
+
+                <li>HW #3 – CSS Cascade, Selection & Pseudo Selectors class: 1054</li>
+
             </ul>
+
     </section>
 
 <!-- END - SEC 4 -->
@@ -102,9 +130,7 @@
     <p>Note: All of FIP should be done by Dec 2nd or 6th. Read on FOL classes for more information.</p>
  </footer>
 <!-- END - FOOTER -->
-
-
-
+ 
 <!-- NO CHANGES DOWN HERE -->
 </div>
 
